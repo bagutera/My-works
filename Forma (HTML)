@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html>
+
+<head> 
+
+	<meta charset='utf-8'>
+
+</head>
+
+<body>
+
+	<form action="kod_form.php" method="get">
+		<p>Name:             <input type="text" name="name" placeholder='Enter Your name' value="" required="required" /><br/></p>
+		<p>Username:         <input type="text" name="username" placeholder='Enter Your username' value="" required="required"/><br/></p>
+		<p>Password:         <input type="password" name="hide" placeholder='Enter Your password' value="" required="required"/><br/></p>
+        <p>Age:              <input type="number" name="age" placeholder='Enter Your name' value="" required="required" min="1" max="200"/><br/></>
+        <p>Sex: Male         <input type="radio" name="sex" value="" required="required"/>
+        Female            <input type="radio" name="sex" value="" required="required"/><br/></p>
+        <p>Agree with terms: <input type="checkbox" name="agreeWithTerms" value="" required="required"/><br/></p>
+        <input type="submit" name="send" value="Send"/><br/></p>
+        <input type="reset" name="send" value="Reset"/><br/></p>
+
+	</form>
+
+</body>
+
+</html>
