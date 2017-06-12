@@ -1,0 +1,39 @@
+<!------------------------------------------------------------------------HTML-------------------------------------------------------------------------------->
+<!DOCTYPE html>
+
+<html>
+
+	<head> 
+
+		<meta charset='utf-8'>
+
+	</head>
+
+		<body>
+
+			<h1>Hinda kohta>Reval Cafe</h1>
+
+			<form action="kod_form.php" method="get">
+				<p>Nimi             <input type="text" name="nimi"  value="" required="required" </p>
+				<p>Kommentaar       <input type="text" name="kommentaar"  value="" required="required"</p>
+				<p>&#9734 &#9734 &#9734 &#9734 &#9734 &#9734 &#9734 &#9734 &#9734 &#9734
+				<input type="radio" name="hinnang" value="" required="required"<br></p>
+				<input type="submit" name="send" value="saada"/><br/></p>
+			   
+			 <h1>Teiste hinnangud</h1>
+
+			</form>
+
+		</body>
+
+<!------------------------------------------------------------------------CSS--------------------------------------------------------------------------------->	
+</html>
+
+<!DOCTYPE html>
+<html>
+<style>
+body {
+    font-size: 20px;
+}
+
+</html>
