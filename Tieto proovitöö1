@@ -22,7 +22,7 @@
 			<h1>Valige asutus mida hinnata</h1>
 
 			<form class=action="forma2.html" method="get">
-				<input type="number" name="a" required="required" />
+				<input type="text" name="a" required="required" />
 				<input type="submit" name="send" value="otsi"/><br/>
 
 			</form>
@@ -70,56 +70,11 @@
 				<td>7.9</td>
 				<td>78</td>
 			  </tr>
-			  <tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			  </tr>
-			  <tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			  </tr>
-			  <tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			  </tr>
-			  <tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			  </tr>
-			  <tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			  </tr>
-			  <tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			  </tr>
-			  <tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			  </tr>
-			  <tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			  </tr>
+			  
 			</table>
-
+			
+			<p><a href="avaleht.html"> << Eelmised </a>
+			<a href="kodutöö2.html"> Järgmised >></a></p>
 
 		</body>
 </html>
