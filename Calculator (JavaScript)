@@ -1,8 +1,14 @@
+<!DOCTYPE html>
 <html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+</head>
+<body>
 	<script>
 		
 	 //Function for calculating the salary.							
-    function salary (hour,rate){					
+    	function salary (hour,rate){					
             retrTax=0.02; 		//Retirement tax in 2017.
             nonTaxMinimum=180; 		//Non-taxable minimum in 2017
             medIns=0.01; 	//Medical insurance in 2017
@@ -14,9 +20,8 @@
 	var rate= parseInt(rate);															
 	
 	//Checking incoming data. There are must be numbers.
-    if(typeof(hour)=="number" && typeof(rate)=="number") { 	 
+    	if(typeof(hour)=="number" && typeof(rate)=="number") { 	 
          
-	//The formula for calculating the gross salary.
         bruttoSalary = (hour * rate);				
                 
 	//Check if the gross salary is greater than the non-taxable minimum.
@@ -31,7 +36,7 @@
 		// The formula for calculating net wages is less than the non-taxable minimum.
 		nettoSalary = (bruttoSalary * (1 - retrTax - medIns - unpIns) - nonTaxMinimum) + nonTaxMinimum;
 		
-           }else{return false}								//Output of the error if the prompt did not enter numbers.
+         }else{return false}								//Output of the error if the prompt did not enter numbers.
             
 	    Tax=(bruttoSalary-nettoSalary);						//The formula for calculating taxes.
 	    
@@ -42,9 +47,10 @@
 
         hour=prompt("Payment per hour:");				
         rate=prompt("The amount of hours:");	
-        realSalary = salary(hour, rate);						//Call the function salary
+        realSalary = salary(hour, rate);					//Call the function salary
         
 	alert("BruttoSalary: " + realSalary[0] + "EUR, NettoSalary: " + realSalary[1] + "EUR, Taxis: " + realSalary[2] + "EUR.");
 	
 	</script>
+</body>
 </html>
