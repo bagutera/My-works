@@ -1,12 +1,13 @@
 ------------------------------------------------------------- HTML---------------------------------------------------------------------
 
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
 
 <head> 
 
-	<meta charset='utf-8'>
+	<meta charset='UTF-8'>
+	<title>Convertor</title>
 
 </head>
 
@@ -19,7 +20,8 @@
 							<option value="commons" > Lowercase  </option>
 							<option value="allCapts" > Uppercase </option>
 						</select>
-        			<input type="submit" name ="sendValue" value="Send"</p>
+        			<input type="submit" name ="sendValue" value="Send"
+        </p>
 						 
 
 	</form>
