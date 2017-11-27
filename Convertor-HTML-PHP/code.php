@@ -6,7 +6,6 @@ if (!empty($_GET['inputInform']))
 if (!empty($_GET['convertTypes']))
 	$convertTypes = $_GET['convertTypes'];
 
-
 function changeCase($inputInform,$convertTypes)
 {
 	if ($convertTypes == "firstCapt")
@@ -19,7 +18,6 @@ function changeCase($inputInform,$convertTypes)
 		{
 			echo "In a sentence ".$strSum1." word, and ";
 		}
-		
 		else
 		{
 			echo "In a sentence ".$strSum1." words, and ";
@@ -30,7 +28,6 @@ function changeCase($inputInform,$convertTypes)
 		{
 			echo $symbSum1." symbol."."<br>";
 		}
-		
 		else
 		{
 			echo $symbSum1." symbols."."<br>";
@@ -48,7 +45,6 @@ function changeCase($inputInform,$convertTypes)
 		{
 			echo "In a sentence ".$strSum2." word, and ";
 		}
-		
 		else
 		{
 			echo "In a sentence ".$strSum2." words, and ";
@@ -94,7 +90,6 @@ function changeCase($inputInform,$convertTypes)
 		return $strConvert3;
 	}
 }
-
 //check on input
 if (!empty($inputInform) && !empty($convertTypes))
 	changeCase($inputInform,$convertTypes);
@@ -103,7 +98,7 @@ if (!empty($inputInform) && !empty($convertTypes))
 -------------------------------------------------------------TEST------------------------------------------------------------------
 
 <?php
-include('kod_form.php');
+include('code.php');
 if(changeCase('mari.liis','firstCapt')==="Mari.liis"){
 echo "Test is successfully completed.<br><br>";
 }else{echo "Test failed";}
