@@ -1,4 +1,5 @@
- //Function for calculating the salary.							
+<script> 
+//Function for calculating the salary.							
     	function salary (hour,rate){					
             retrTax=0.02; 		//Retirement tax in 2017.
             nonTaxMinimum=180; 		//Non-taxable minimum in 2017
@@ -41,3 +42,4 @@
         realSalary = salary(hour, rate);					//Call the function salary
         
 	alert("BruttoSalary: " + realSalary[0] + "EUR, NettoSalary: " + realSalary[1] + "EUR, Taxis: " + realSalary[2] + "EUR.");
+</script>
