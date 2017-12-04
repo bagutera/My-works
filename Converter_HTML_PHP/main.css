@@ -1,0 +1,13 @@
+body{
+	font-family:sans-serif;
+	font-size:normal;
+	background:url(office.jpg);
+	margin-top: 250px;
+	text-align: center;
+	
+}
+
+#consol{
+	
+	padding: 40px;
+}
