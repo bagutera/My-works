@@ -4,19 +4,19 @@
 	<head> 
 		<meta charset='utf-8'>
 		<title>Converter</title>
+		<link type="text/css" rel="stylesheet" href="main.css">
 	</head>
 
 	<body>
 		<form action="code.php" method="get">
 		<p>	Contert <input type="text" placeholder ="Type something" name="inputInform" value="" required = "required" >
-				<select name="convertTypes" required = "required" >
+				<select name="convertTypes" id="capForm" >
 					<option value="firstCapt"> First capital </option>  
 					<option value="commons" > Lowercase   </option>
 					<option value="allCapts" > Uppercase </option>
 				</select>
-			<input type="submit" name ="sendValue" value="Send"
-		</p>
+			<input type="submit" name ="sendValue" value="Send">
+		</p>				 
 		</form>
 	</body>
 </html>
-
