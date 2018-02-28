@@ -1,28 +1,37 @@
 <!--https://validator.w3.org " Document checked, no errors or warnings"-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head> 
 	<meta charset='utf-8'>
 	<title>Form</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<form action="code.php" method="get">
-		<p>Name:      <input type="text" name="name" placeholder='Enter Your name' value="" required="required" /><br/></p>
+	<form action="code.php" method="post">
+	
+		<p>Name: <input type="text" name="name" placeholder='First name' value="" required="required" /></p>
 		
-                <p>Username:  <input type="text" name="username" placeholder='Enter Your username' value="" required="required"/><br/></p>
+                <p>Username:  <input type="text" name="username" placeholder='Last name' value="" required="required"/></p>
 		
-                <p>Password:  <input type="password" name="hide" placeholder='Enter Your password' value="" required="required"/><br/></p>
+                <p>Password:  <input type="password" name="hide" value="" required="required"/></p>
 
-                <p>Age:       <input type="number" name="age" placeholder='Enter Your name' value="" required="required" min="1" max="200"/><br/></p>
+                <p>Age:       <input type="number" name="age"  value="" required="required" min="1" max="200"/></p>
 
-                <p>Sex: Male  <input type="radio" name="sex" value="" required="required"/>
-                       Female <input type="radio" name="sex" value="" required="required"/><br/>
+				<p>
+					Sex:<br>
+					 Male  <input type="radio" name="sex" value="" required="required"/><br>
+                     Female <input type="radio" name="sex" value="" required="required"/>
                  </p>
 
-                <p>Agree with terms: <input type="checkbox" name="agreeWithTerms" value="" required="required"/><br/></p>
+                <p>Agree with terms: <input type="checkbox" name="agreeWithTerms" value="" required="required"/></p>
+				
+				<p>Comments:</p>
+				<p>
+					<textarea name="comments"></textarea>
+				</p>
 
-                <p><input type="submit" name="send" value="Send"/><br/></p>
-                <p><input type="reset" name="send" value="Reset"/><br/></p>
+                <p><input type="submit" name="send" value="Send"/></p>
+                <p><input type="reset" name="send" value="Reset"/></p>
 	</form>
 </body>
 </html>
